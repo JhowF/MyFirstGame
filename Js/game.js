@@ -23,11 +23,7 @@ function gameInitiation() {
     maxWidth,
     maxHigth
   );
-  const monster = new GameMonsterOverWolrdPart1(
-    monsterEmerge,
-    maxWidth,
-    maxHigth
-  );
+
   setInterval(() => {
     console.log(monster.score);
   });
