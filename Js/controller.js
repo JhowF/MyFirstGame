@@ -95,7 +95,7 @@ export class GameMonsterOverWolrdPart1 {
     const monsteLength = document.querySelectorAll(".monster");
     const backGround = document.querySelector(".background-Cenary");
 
-    if (monsteLength.length < 10) {
+    if (monsteLength.length <= 15) {
       const MosnterRandom = [
         "../assets/monster/monster_0.png",
         "../assets/monster/monster_1.png",
